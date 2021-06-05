@@ -51,8 +51,8 @@ define('MODULES_MATCHES', implode('|', array_keys($modules)));
 return array(
 	'basePath'=>ROOTPATH . DIRECTORY_SEPARATOR . 'protected',
 	'name'=>'CSBans',
-	'sourceLanguage' => 'en',
-	'language'=>'en',
+	'sourceLanguage' => 'ru',
+	'language'=>'ru',
 
 	// Предзагружаемые компоненты
 	'preload'=>array(
@@ -147,7 +147,7 @@ return array(
 	),
 
 	// Тема (темы лежат в themes)
-	'theme'=>'default',
+	'theme'=>'dev-cs',
 
 	'homeUrl' => array('/bans/index'),
 
